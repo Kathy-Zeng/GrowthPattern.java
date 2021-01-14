@@ -53,14 +53,15 @@ public class GrowthPattern
 	// time vertically and height horizontally.
 	public void printSymbols(char[] sign)
 	{
+		System.out.println();
 		for(int j = 0; j < height.length; j++)
 		{
 			System.out.printf("%nt%-5d", j);
 			int symbolNum = height[j] + 5;
-	    for(int k = 0; k < symbolNum; k++)
+	        for(int k = 0; k < symbolNum; k++)
 		{
 			System.out.printf("%c", sign[j]);
-	    }
+	     }
 	  }
     }
 	// Prints a result for rate.
