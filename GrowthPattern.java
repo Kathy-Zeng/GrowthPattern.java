@@ -68,7 +68,7 @@ public class GrowthPattern
 	public void printRate()
 	{
 		double rate = 0.0;
-		double cHeight = 0;
+		double cHeight = 0.0;
 		cHeight = height[height.length - 1] - height[0];
 		rate = cHeight/height.length - 1;
 		System.out.println("\n");
