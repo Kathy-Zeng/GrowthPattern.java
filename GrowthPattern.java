@@ -5,7 +5,7 @@
 
 public class GrowthPattern
 {
-	private int[] height;
+	private int[] height; // Determines a set of numbers for heights. 
 	
 	public GrowthPattern()
 	{
