@@ -61,7 +61,7 @@ public class GrowthPattern
 	        for(int k = 0; k < symbolNum; k++)
 		{
 			System.out.printf("%c", sign[j]);
-	     }
+	        }
 	  }
     }
 	// Prints a result for rate.
@@ -70,7 +70,7 @@ public class GrowthPattern
 		double rate = 0.0;
 		double cHeight = 0.0;
 		cHeight = height[height.length - 1] - height[0];
-		rate = cHeight/height.length - 1;
+		rate = cHeight/height.length; 
 		System.out.println("\n");
 		System.out.printf("This is the growth rate is %.2f mm per unit time.", rate);
 		System.out.println("\n\n\n");
